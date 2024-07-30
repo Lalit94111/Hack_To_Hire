@@ -191,7 +191,7 @@ const sendNotification = async ( message, flight_id ,io) => {
               } else {
                 console.error('Socket.IO instance is not available');
               }
-                await Notification.create(notification);
+                // await Notification.create(notification);
             }
         });
     } catch (error) {
